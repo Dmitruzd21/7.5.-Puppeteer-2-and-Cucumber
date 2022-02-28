@@ -1,0 +1,26 @@
+{
+    "name": "ticket_booking_tests",
+    "version": "1.0.0",
+    "description": "Test with puppeteer and cucumber",
+    "main": "index.js",
+    "scripts": {
+        "test": "jest",
+        "cucumber": "cucumber-js"
+    },
+    "keywords": [
+        "test",
+        "puppeteer",
+        "cucumber"
+    ],
+    "author": "Dmitry",
+    "license": "ISC",
+    "dependencies": {
+        "chai": "^4.3.6",
+        "jest": "^27.3.1",
+        "jest-puppeteer": "^6.0.0",
+        "puppeteer": "^13.3.2"
+    },
+    "devDependencies": {
+        "@cucumber/cucumber": "^7.3.2"
+    }
+}
